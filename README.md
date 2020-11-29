@@ -5,6 +5,7 @@ Basic API for TODO list appliactions. It receives your requests, handles them an
 ## Install
 ```go get github.com/agayev169/todo_api```
 will download and install the api to your local machine into your `$GOPATH`.
+Or simply download the executable from [Releases](https://github.com/agayev169/todo_api/releases/tag/v1.0).
 
 ## Usage
 run the api with the following command:
