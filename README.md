@@ -106,6 +106,23 @@ Response:
     }
 }
 ```
+Request: (Adding an item with invalid priority value)
+/add
+```
+{
+    "id": 1, 
+    "name": "Learn golang", 
+    "priority": 10
+}
+```
+Response:
+```
+{
+    "ok": false,
+    "decsription": "Invalid request",
+    "result": null
+}
+```
 Request: (Getting an item)
 ```
 /get 
